@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>FastCacheDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>D91CA46D1D86FEEC008DB9F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>D94AABD61D86C2DF009E4AC9</key>
 		<dict>
 			<key>primary</key>

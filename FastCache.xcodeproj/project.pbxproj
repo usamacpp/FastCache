@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D91CA4711D86FEEC008DB9F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91CA4701D86FEEC008DB9F1 /* AppDelegate.swift */; };
+		D91CA4731D86FEEC008DB9F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91CA4721D86FEEC008DB9F1 /* ViewController.swift */; };
+		D91CA4761D86FEEC008DB9F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91CA4741D86FEEC008DB9F1 /* Main.storyboard */; };
+		D91CA4781D86FEEC008DB9F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91CA4771D86FEEC008DB9F1 /* Assets.xcassets */; };
+		D91CA47B1D86FEEC008DB9F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91CA4791D86FEEC008DB9F1 /* LaunchScreen.storyboard */; };
+		D91CA4801D86FF01008DB9F1 /* FastCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94AABD71D86C2DF009E4AC9 /* FastCache.framework */; };
+		D91CA4821D87028D008DB9F1 /* URLFastCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91CA4811D87028D008DB9F1 /* URLFastCache.swift */; };
+		D91CA4841D870405008DB9F1 /* FastCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91CA4831D870405008DB9F1 /* FastCache.swift */; };
 		D94AABDB1D86C2DF009E4AC9 /* FastCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D94AABDA1D86C2DF009E4AC9 /* FastCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D94AABE21D86C2DF009E4AC9 /* FastCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94AABD71D86C2DF009E4AC9 /* FastCache.framework */; };
 		D94AABE71D86C2DF009E4AC9 /* FastCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94AABE61D86C2DF009E4AC9 /* FastCacheTests.swift */; };
@@ -23,6 +31,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D91CA46E1D86FEEC008DB9F1 /* FastCacheDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastCacheDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91CA4701D86FEEC008DB9F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D91CA4721D86FEEC008DB9F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D91CA4751D86FEEC008DB9F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D91CA4771D86FEEC008DB9F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D91CA47A1D86FEEC008DB9F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D91CA47C1D86FEEC008DB9F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D91CA4811D87028D008DB9F1 /* URLFastCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLFastCache.swift; sourceTree = "<group>"; };
+		D91CA4831D870405008DB9F1 /* FastCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastCache.swift; sourceTree = "<group>"; };
 		D94AABD71D86C2DF009E4AC9 /* FastCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FastCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D94AABDA1D86C2DF009E4AC9 /* FastCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FastCache.h; sourceTree = "<group>"; };
 		D94AABDC1D86C2DF009E4AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,6 +49,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D91CA46B1D86FEEC008DB9F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91CA4801D86FF01008DB9F1 /* FastCache.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D94AABD31D86C2DF009E4AC9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -50,11 +75,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D91CA46F1D86FEEC008DB9F1 /* FastCacheDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D91CA4701D86FEEC008DB9F1 /* AppDelegate.swift */,
+				D91CA4721D86FEEC008DB9F1 /* ViewController.swift */,
+				D91CA4741D86FEEC008DB9F1 /* Main.storyboard */,
+				D91CA4771D86FEEC008DB9F1 /* Assets.xcassets */,
+				D91CA4791D86FEEC008DB9F1 /* LaunchScreen.storyboard */,
+				D91CA47C1D86FEEC008DB9F1 /* Info.plist */,
+			);
+			path = FastCacheDemo;
+			sourceTree = "<group>";
+		};
 		D94AABCD1D86C2DF009E4AC9 = {
 			isa = PBXGroup;
 			children = (
 				D94AABD91D86C2DF009E4AC9 /* FastCache */,
 				D94AABE51D86C2DF009E4AC9 /* FastCacheTests */,
+				D91CA46F1D86FEEC008DB9F1 /* FastCacheDemo */,
 				D94AABD81D86C2DF009E4AC9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +103,7 @@
 			children = (
 				D94AABD71D86C2DF009E4AC9 /* FastCache.framework */,
 				D94AABE11D86C2DF009E4AC9 /* FastCacheTests.xctest */,
+				D91CA46E1D86FEEC008DB9F1 /* FastCacheDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +113,8 @@
 			children = (
 				D94AABDA1D86C2DF009E4AC9 /* FastCache.h */,
 				D94AABDC1D86C2DF009E4AC9 /* Info.plist */,
+				D91CA4811D87028D008DB9F1 /* URLFastCache.swift */,
+				D91CA4831D870405008DB9F1 /* FastCache.swift */,
 			);
 			path = FastCache;
 			sourceTree = "<group>";
@@ -100,6 +142,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		D91CA46D1D86FEEC008DB9F1 /* FastCacheDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D91CA47F1D86FEEC008DB9F1 /* Build configuration list for PBXNativeTarget "FastCacheDemo" */;
+			buildPhases = (
+				D91CA46A1D86FEEC008DB9F1 /* Sources */,
+				D91CA46B1D86FEEC008DB9F1 /* Frameworks */,
+				D91CA46C1D86FEEC008DB9F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastCacheDemo;
+			productName = FastCacheDemo;
+			productReference = D91CA46E1D86FEEC008DB9F1 /* FastCacheDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D94AABD61D86C2DF009E4AC9 /* FastCache */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D94AABEB1D86C2DF009E4AC9 /* Build configuration list for PBXNativeTarget "FastCache" */;
@@ -146,6 +205,9 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "ossama mikhail";
 				TargetAttributes = {
+					D91CA46D1D86FEEC008DB9F1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					D94AABD61D86C2DF009E4AC9 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -160,6 +222,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D94AABCD1D86C2DF009E4AC9;
 			productRefGroup = D94AABD81D86C2DF009E4AC9 /* Products */;
@@ -168,11 +231,22 @@
 			targets = (
 				D94AABD61D86C2DF009E4AC9 /* FastCache */,
 				D94AABE01D86C2DF009E4AC9 /* FastCacheTests */,
+				D91CA46D1D86FEEC008DB9F1 /* FastCacheDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D91CA46C1D86FEEC008DB9F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91CA47B1D86FEEC008DB9F1 /* LaunchScreen.storyboard in Resources */,
+				D91CA4781D86FEEC008DB9F1 /* Assets.xcassets in Resources */,
+				D91CA4761D86FEEC008DB9F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D94AABD51D86C2DF009E4AC9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -190,10 +264,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D91CA46A1D86FEEC008DB9F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91CA4731D86FEEC008DB9F1 /* ViewController.swift in Sources */,
+				D91CA4711D86FEEC008DB9F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D94AABD21D86C2DF009E4AC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D91CA4841D870405008DB9F1 /* FastCache.swift in Sources */,
+				D91CA4821D87028D008DB9F1 /* URLFastCache.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +300,48 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		D91CA4741D86FEEC008DB9F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D91CA4751D86FEEC008DB9F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D91CA4791D86FEEC008DB9F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D91CA47A1D86FEEC008DB9F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		D91CA47D1D86FEEC008DB9F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FastCacheDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.osamamourad.FastCacheDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D91CA47E1D86FEEC008DB9F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FastCacheDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.osamamourad.FastCacheDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		D94AABE91D86C2DF009E4AC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -310,6 +436,7 @@
 		D94AABEC1D86C2DF009E4AC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -320,12 +447,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.osamamourad.FastCache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		D94AABED1D86C2DF009E4AC9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -362,6 +491,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D91CA47F1D86FEEC008DB9F1 /* Build configuration list for PBXNativeTarget "FastCacheDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D91CA47D1D86FEEC008DB9F1 /* Debug */,
+				D91CA47E1D86FEEC008DB9F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		D94AABD11D86C2DF009E4AC9 /* Build configuration list for PBXProject "FastCache" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -378,6 +515,7 @@
 				D94AABED1D86C2DF009E4AC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D94AABEE1D86C2DF009E4AC9 /* Build configuration list for PBXNativeTarget "FastCacheTests" */ = {
 			isa = XCConfigurationList;
@@ -386,6 +524,7 @@
 				D94AABF01D86C2DF009E4AC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
