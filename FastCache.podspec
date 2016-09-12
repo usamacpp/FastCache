@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FastCache"
-  s.version      = “1.0.0”
+  s.version      = “0.0.1”
   s.summary      = "FastCache is a HTTP speeding library uses caching technique.”
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #
 
   #s.source       = { :git => "http://EXAMPLE/FastCache.git", :tag => “1.0.0” }
-  s.source       = { :git => "https://github.com/path/FastImageCache", :tag => “1.0.0” }
+  s.source       = { :git => "https://github.com/path/FastImageCache", :tag => “0.0.1” }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

@@ -12,15 +12,22 @@
 		D91CA4761D86FEEC008DB9F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91CA4741D86FEEC008DB9F1 /* Main.storyboard */; };
 		D91CA4781D86FEEC008DB9F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91CA4771D86FEEC008DB9F1 /* Assets.xcassets */; };
 		D91CA47B1D86FEEC008DB9F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91CA4791D86FEEC008DB9F1 /* LaunchScreen.storyboard */; };
-		D91CA4801D86FF01008DB9F1 /* FastCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94AABD71D86C2DF009E4AC9 /* FastCache.framework */; };
 		D91CA4821D87028D008DB9F1 /* URLFastCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91CA4811D87028D008DB9F1 /* URLFastCache.swift */; };
 		D91CA4841D870405008DB9F1 /* FastCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91CA4831D870405008DB9F1 /* FastCache.swift */; };
+		D91CA4851D87050D008DB9F1 /* FastCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94AABD71D86C2DF009E4AC9 /* FastCache.framework */; };
 		D94AABDB1D86C2DF009E4AC9 /* FastCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D94AABDA1D86C2DF009E4AC9 /* FastCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D94AABE21D86C2DF009E4AC9 /* FastCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94AABD71D86C2DF009E4AC9 /* FastCache.framework */; };
 		D94AABE71D86C2DF009E4AC9 /* FastCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94AABE61D86C2DF009E4AC9 /* FastCacheTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D91CA4861D87055C008DB9F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D94AABCE1D86C2DF009E4AC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D94AABD61D86C2DF009E4AC9;
+			remoteInfo = FastCache;
+		};
 		D94AABE31D86C2DF009E4AC9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D94AABCE1D86C2DF009E4AC9 /* Project object */;
@@ -53,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D91CA4801D86FF01008DB9F1 /* FastCache.framework in Frameworks */,
+				D91CA4851D87050D008DB9F1 /* FastCache.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +160,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				D91CA4871D87055C008DB9F1 /* PBXTargetDependency */,
 			);
 			name = FastCacheDemo;
 			productName = FastCacheDemo;
@@ -293,6 +301,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D91CA4871D87055C008DB9F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D94AABD61D86C2DF009E4AC9 /* FastCache */;
+			targetProxy = D91CA4861D87055C008DB9F1 /* PBXContainerItemProxy */;
+		};
 		D94AABE41D86C2DF009E4AC9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D94AABD61D86C2DF009E4AC9 /* FastCache */;
